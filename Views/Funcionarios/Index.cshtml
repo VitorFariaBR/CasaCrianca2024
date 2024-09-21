@@ -1,0 +1,21 @@
+﻿@model List<CasaCrianca.Models.Funcionarios>
+
+<h2>Lista de Funcionários</h2>
+
+<table class="tabelaListagem">
+    <tr class="cabecalhoListagem">
+    <td><strong>ID</strong></td>
+    <td><strong>Nome</strong></td>
+    <td><strong>Cidade</strong></td>
+    <td><strong>Email</strong></td>
+</tr>
+@foreach (var funcionarios in Model)
+{
+    <tr>
+       <td>@funcionarios.Id </td>
+       <td>@funcionarios.Nome</td>
+       <td>@funcionarios.Cidade</td>
+       <td>@funcionarios.Email</td>
+    </tr>
+}
+</table>

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CasaCrianca": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53288;http://localhost:53289"
+    }
+  }
+}

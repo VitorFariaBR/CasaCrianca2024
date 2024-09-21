@@ -1,0 +1,19 @@
+﻿@model List<CasaCrianca.Models.Alunos>
+
+<h2>Lista de Alunos</h2>
+
+<table class="tabelaListagem">
+<tr class="cabecalhoListagem">
+    <td><strong>ID</strong></td>
+    <td><strong>Nome</strong></td>
+    <td><strong>Data de Nascimento</strong></td>
+</tr>
+@foreach (var aluno in Model)
+{
+    <tr>
+        <td>@aluno.Id</td>
+        <td>@aluno.Nome</td>
+        <td>@aluno.DataDeNascimento</td>
+    </tr>
+}
+</table>
