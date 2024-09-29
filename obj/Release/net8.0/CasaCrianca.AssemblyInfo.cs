@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CasaCrianca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02f4a0a98eee61b720c928d65c3b1d3001d1f42f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CasaCrianca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CasaCrianca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
